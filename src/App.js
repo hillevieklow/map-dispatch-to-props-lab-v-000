@@ -19,4 +19,4 @@ const mapStateToProps = state => {
   return state;
 };
 
-export default App;
+export default connect(mapStateToProps, { addRestaurant })(App);
